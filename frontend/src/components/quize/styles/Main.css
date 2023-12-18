@@ -1,0 +1,59 @@
+.container ol li{
+    font-size: 1.4em;
+    color: #ff9900;
+}
+
+/* @media  screen and (max-width:600px) {
+    .container ol li{
+        color: antiquewhite;
+    }
+    
+} */
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #e41818;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+/* this is the my self practice */
+
+@media sereen and (max-width:600px) {
+    .container ol li{
+        font-size: 1.4em;
+        color: #e41818;
+    }
+    .start .btn{
+        padding: .2em 1.7em;
+        border: none;
+        border-radius: .1em;
+        font-size: 1.2em;
+        color: #15e106;
+        text-decoration: none;
+        background-color: #e41818;
+    }
+}
